@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/SourceCodePro-VariableFont_wght.woff2') format('woff2');
+    font-display: swap; 
+    font-weight: 100 900; 
+    font-stretch: 75% 125%;
+}
+
+@font-face {
+    font-family: 'Indie Flower';
+    src: url('fonts/IndieFlower-Regular.woff2') format('woff2');
+    font-display: swap; 
+    font-weight: 100 900;
+    font-style: normal;
+}
+/* 
+  ========== СТРУКТУРА СТРАНИЦЫ ==========
+*/
+        .container {
+            margin: 10px;
+            border: 5px solid black;
+            min-height: 100vh;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+/* Шапка сайта - обычно содержит логотип, навигацию, контактные данные */
+header {
+    font-family: "Indie Flower", monospace;
+    font-size: 32px;
+    color: rgb(0, 92, 0);
+}
+
+/* Навигационное меню - основные ссылки по сайту */
+nav {
+    font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+}
+
+/* Основное содержимое страницы - должен быть один на странице */
+main {
+color:  #333;
+}
+
+/* Логический раздел контента - группа связанного содержимого */
+section {
+ color: #333;
+}
+
+/*Заглавие нашего артикля*/
+h1,h2,h3,h4,h5,h6{
+        color: green;
+        font-family: "Indie Flower";
+}
+/* Независимый самодостаточный контент - статья, карточка товара, пост */
+article {
+    max-width: 660px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 24px;
+    color: #333;
+    margin-right: 32px;
+}
+
+/* Подвал сайта - копирайты, дополнительные ссылки, контакты */
+footer {
+    font-family: "Indie Flower", monospace;
+    font-size: 8px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+/* 
+  ========== БАЗОВЫЕ ЭЛЕМЕНТЫ ==========
+*/
+
+/* Гиперссылка - для переходов между страницами или якорями */
+a{
+    font-family: "Indie Flower", monospace;
+    font-size: 32px;
+    color: rgb(0, 92, 0);
+}
+
+a:hover {
+    color: green;
+
+}
+
+li {
+    font-family: "Indie Flower", monospace;
+    font-size: 32px;
+    color: rgb(0, 92, 0);
+}
