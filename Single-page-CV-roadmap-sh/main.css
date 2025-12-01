@@ -52,6 +52,7 @@ section {
 h1,h2,h3,h4,h5,h6{
         color: green;
         font-family: "Indie Flower";
+        margin-bottom: 10px;
 }
 /* Независимый самодостаточный контент - статья, карточка товара, пост */
 article {
